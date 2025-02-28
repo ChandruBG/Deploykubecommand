@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: weatherapp
-        image: ghcr.io/chandrubg/weatherapp:latest
+        image: weatherapp:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
